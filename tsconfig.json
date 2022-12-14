@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "ESNext",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"declaration": true,
+		"rootDir": "./src",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		// Set to false when using lit according to
+		// https://vitejs.dev/guide/features.html#usedefineforclassfields
+		"useDefineForClassFields": false,
+		"strictPropertyInitialization": false,
+		// Set to true according to https://vitejs.dev/guide/features.html#isolatedmodules
+		"isolatedModules": true,
+		"strictFunctionTypes": false
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": []
+}
